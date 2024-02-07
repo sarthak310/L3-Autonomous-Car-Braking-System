@@ -49,7 +49,7 @@ class DirectionsActivity : MainActivity() {
         val startCoordinates = editTextStart.text.toString()
         val endCoordinates = editTextEnd.text.toString()
 
-        val apiKey = "AIzaSyC9wZy_2KEeNDwrnorOhpsviUmLmJvT3RE"
+        val apiKey = "your_api_key"
 
         val distanceMatrixUrl = "https://maps.googleapis.com/maps/api/distancematrix/json?" +
                 "origins=$startCoordinates" +
