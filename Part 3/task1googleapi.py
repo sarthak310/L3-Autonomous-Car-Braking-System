@@ -12,7 +12,7 @@ Original file is located at
 import googlemaps
 # from sklearn.cluster import KMeans
 
-gmaps = googlemaps.Client(key='AIzaSyC9wZy_2KEeNDwrnorOhpsviUmLmJvT3RE')
+gmaps = googlemaps.Client(key='your_api_key')
 
 origin = (33.417920520438514, -111.93442461936176) # MU
 destination = (33.435454899300865, -112.01019910587053) # Sky Harbor Airport, Phoenix
