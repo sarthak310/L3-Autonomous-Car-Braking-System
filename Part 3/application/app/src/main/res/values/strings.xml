@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DiaShield</string>
+    <string name="measure_h_rate">Measure Heart Rate</string>
+    <string name="measure_r_rate">Measure Respiratory Rate</string>
+    <string name="result_h_rate">Heart Rate:</string>
+    <string name="result_r_rate">Respiratory Rate:</string>
+    <string name="upload_signs">Upload Signs</string>
+    <string name="record_symptoms">Record Symptoms</string>
+    <string name="symptom_title">Symptom Logging</string>
+
+    <string name="upload_symptoms">Upload Symptom</string>
+    <string name="title_activity_directions">DirectionsActivity</string>
+
+</resources>

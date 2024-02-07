@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww13440\viewh6680\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 private fun callRespiratoryCalculator():Int \{\
+        var previousValue = 0f\
+        var currentValue = 0f\
+        previousValue = 10f\
+        k=0\
+        for (i in 11..450) \{\
+            currentValue = sqrt(\
+                Math.pow(accelValuesZ[i].toDouble(), 2.0) + Math.pow(\
+                    accelValuesX[i].toDouble(),\
+                    2.0\
+                ) + Math.pow(accelValuesY[i].toDouble(), 2.0)\
+            ).toFloat()\
+            if (abs(x = previousValue - currentValue) > 0.15) \{\
+                k++\
+            \}\
+            previousValue=currentValue\
+        \}\
+        val ret= (k/45.00)\
+\
+        return (ret*30).toInt()\
+    \}}
